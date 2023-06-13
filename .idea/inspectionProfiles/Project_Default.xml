@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="blog.models.markdownx" />
+          <option value="blog.models.*" />
+          <option value="blog.admin.markdownx" />
+          <option value="django_prj.blog.admin.*" />
+          <option value="django_prj.blog.admin.markdownx" />
+          <option value="blog.urls.*" />
+          <option value="blog.admin.MarkdownxModelAdmin" />
+          <option value="settings.DATABASES" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
