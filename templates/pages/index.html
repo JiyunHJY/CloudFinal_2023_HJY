@@ -1,10 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="card text-center">
+    <div class="card-body">
+        <h1>Welcome To Survey page</h1>
+        <p>What's your choice?</p>
+        <a class="btn btn-dark" href="{% url 'polls:index' %}">
+            Click here to poll</a>
+    </div>
+</div>
+{% endblock %}
